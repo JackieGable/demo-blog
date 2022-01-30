@@ -15,20 +15,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   Learning how to use Jekyll to create a blog with the help of: [GitHub repo](https://github.com/BillRaymond/jekyll-featured-images).
 baseurl: "/demo-blog" # the subpath of your site, e.g. /blog
 url: "https://jackiegable.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "JackieGable/my-blog"
 
 
-
-minimal_mistakes_skin: default
+#minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
